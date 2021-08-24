@@ -76,6 +76,8 @@ function checkAnswer(currentLevel) {
       console.log((i + 1) + " Level success");
     } else {
       console.log((i + 1) + " Level wrong");
+      var wrongAudio = new Audio("sounds/wrong.mp3");
+      wrongAudio.play();
       correctPattern = false;
       gameStarted = false;
       gamePattern = [];
@@ -87,7 +89,7 @@ function checkAnswer(currentLevel) {
       $("#level-title").text("Game Over!!");
 
       setTimeout(function() {$(".game-over").removeClass("game-over");}, 3000);
-      setTimeout(function() {$("#level-title").text("Press A Key to Start");}, 3000);
+      setTimeout(function() {$("#level-title").text("Press Any Key to Start");}, 3000);
       //return correctPattern;
     }
   //}
