@@ -34,11 +34,15 @@ body {
 }
 
 .PDF-icon {
-  width: 5%;
+  width: 8%;
 }
 
 .lesson {
   margin: 30px auto;
+}
+
+.row {
+  margin: 20px auto;
 }
 
 .lesson-h1{
@@ -53,11 +57,11 @@ body {
 
 footer {
   margin: 0;
-  height: 60px;
+  height: 80px;
   background-color: #64B5F6;
   text-align: center;
-  padding-top: 15px;
-  font-style: italic;
+  padding-top: 25px;
+  font-size: 1.2rem;
 }
 
 /* go to top button */
