@@ -42,7 +42,7 @@ body {
 }
 
 .row {
-  margin: 40px auto;
+  margin: 100px auto;
 }
 
 .lesson-h1{
@@ -52,7 +52,7 @@ body {
 
 .lesson-h6 {
   margin: 26px auto;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 footer {
@@ -69,10 +69,10 @@ footer {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 70px;
+  right: 50px;
   z-index: 99;
-  font-size: 2rem;
+  font-size: 2.5rem;
   border: none;
   outline: none;
   background-color: #1E88E5;
