@@ -25,6 +25,10 @@ body {
   font-size: 2rem;
 }
 
+.dropdown-menu {
+  font-size: 2rem;
+}
+
 .flag-img {
   width: 13%;
 }
@@ -35,6 +39,11 @@ body {
 
 .lesson {
   margin: 30px auto;
+}
+
+.lesson-h1{
+
+  font-size: 3rem;
 }
 
 .lesson-h6 {
