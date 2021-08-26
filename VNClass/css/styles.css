@@ -16,21 +16,21 @@ body {
 }
 
 .navbar-brand{
-  width: 380px;
+  width: 400px;
 }
 
 .nav-item {
   padding: 0 10px;
   margin-left: 0;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .dropdown-menu {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .flag-img {
-  width: 13%;
+  width: 15%;
 }
 
 .PDF-icon {
@@ -42,12 +42,13 @@ body {
 }
 
 .row {
-  margin: 100px auto;
+  margin: 30px auto 100px;
+
 }
 
 .lesson-h1{
-
-  font-size: 3rem;
+  margin: auto;
+  font-size: 4rem;
 }
 
 .lesson-h6 {
