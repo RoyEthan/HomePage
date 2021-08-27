@@ -37,6 +37,10 @@ body {
   width: 8%;
 }
 
+.mp3-icon {
+  width: 50%;
+}
+
 .lesson {
   margin: 30px auto;
 }
